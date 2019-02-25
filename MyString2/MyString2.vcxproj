@@ -23,7 +23,7 @@
     <ProjectGuid>{28186260-39CE-4ED8-BEB4-581BE53C36BE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MyString2</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,6 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="testMyString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
