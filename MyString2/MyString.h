@@ -1,5 +1,6 @@
 #pragma once
-
+#include <iostream>
+using namespace std;
 
 
 class MyString {
@@ -13,7 +14,7 @@ public:
 
 	//default constructor- no arguments
 	MyString();
-		
+
 	//constructor that takes a char* paramater and initializes it, makes own copy of the c-string passed new memory for pointer to point at
 	MyString(const char *s);
 
@@ -34,8 +35,10 @@ public:
 
 	//an overloaded assignment operator 
 	MyString& operator=(const MyString& s);
-	
+
 	//overloaded == operator 
 	bool operator==(const MyString& s);
-	
+
 };
+
+ostream& operator<<(ostream &out, const MyString&s);
