@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MyString.cpp" />
-    <ClCompile Include="testMyString.cpp" />
+    <ClCompile Include="TestMyString.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h" />
